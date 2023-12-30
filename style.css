@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.top{
+    position: fixed;
+    top: 0;
+    z-index:4;
+}
+.top1{
+    margin-top: 0;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+    height: 60px;
+    display: flex;
+}
+
+#logo{
+    font-size: 25px;
+    color: white;
+    margin-top: 21px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+
+.top1 img{
+    height: 50%;
+    margin-left: 32px;
+    margin-top: 15px;
+}
+
+.top1 input{
+    margin-left: 150px;
+    font-size: 16px;
+    height: 38px;
+    margin-top: 13px;
+    width: 500px;
+    margin-right: 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color:rgb(22, 21, 21);
+    border: 0.1px solid green;
+    color: aliceblue;
+}
+
+.sricon{
+    margin-left: 0;
+    height: 38px;
+    width: 50px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 0.1px solid green;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:rgb(22, 21, 21);
+}
+
+#sicon{
+    color: white;
+    margin-left: 0px;
+    margin-top: 9px;
+    font-size: 20px;
+}
+
+.mic{
+    border: 0.1px solid green;
+    color: white;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    margin-top: 13px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.mic i{
+    font-size: 20px;
+    margin: 13px; 
+    margin-top: 5px;
+}
+
+.mic:hover{
+    background-color: grey;
+}
+
+.live i{
+    font-size: 17px;
+    margin-top: 23px;
+    margin-left: 150px;
+    color: white;
+}
+
+
+.bell i{
+    font-size: 17px;
+    margin-top: 23px;
+    margin-left: 30px;
+    color: white;
+}
+
+.ucircle i{
+    font-size: 22px;
+    margin-top: 21.5px;
+    margin-right: 80px;
+    margin-left: 30px;
+    color: white;
+}
+
+.top2{
+    margin-top: 0;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+    height: 50px;
+    display: flex;
+}
+
+.sritems{
+    margin-top: 0;
+    width: 100%;
+    color: white;
+    height: 50px;
+    display: flex; 
+}
+
+.sritems ul{
+    margin-left: 80px;
+    margin-top: 12px;
+    display: flex;
+
+    justify-content: left;
+    text-align: center;
+}
+
+.sritems li:hover{
+    background-color: grey;
+}
+
+.inactive{
+    margin-left: 20px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    background-color: rgb(50, 50, 50);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+    font-family: "Roboto","Arial";
+}
+
+.active{
+    margin-left: 20px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+    font-family: "Roboto","Arial";
+}
+
+
+/* css for top1 and top2 */
+
+.sidebar{
+    background-color: rgb(22, 21, 21);
+    margin-top: 0px;
+    width: 80px;
+    height: 471px;
+    color: white;
+    position: fixed;
+    top: 110px;
+    z-index:4;
+}
+
+.home{
+    font-size: 23px;
+    margin-top: 0;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.home:hover{
+    background-color: grey;
+}
+
+.shorts{
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left:2px;
+    text-align: center;
+}
+
+.shorts:hover{
+    background-color: grey;
+}
+
+.subs{
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.subs:hover{
+    background-color: grey;
+}
+
+.lib{
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.lib:hover{
+    background-color: grey;
+}
+
+.sidebar p{
+    font-size: 10px;
+    margin-top: 3px;
+    font-family: "Roboto","Arial";
+}
+
+/* css for side-bar */
+
+.support{
+    display: flex;
+}
+
+.thumbnail1{
+    width:360px;
+    height: 202px;
+    background-color: blue;
+    background-image: url(tn1.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-radius: 15px;   
+}
+
+.thumbnail2{
+    width:360px;
+    height: 202px;
+    background-color: blue;
+    background-image: url(tn2.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-radius: 15px;   
+}
+
+.thumbnail3{
+    width:360px;
+    height: 202px;
+    background-color: blue;
+    background-image: url(tn3.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-radius: 15px;   
+}
+
+.thumbnail4{
+    width:360px;
+    height: 202px;
+    background-color: blue;
+    background-image: url(tn4.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-radius: 15px;   
+}
+
+.thumbnail5{
+    width:360px;
+    height: 202px;
+    background-color: blue;
+    background-image: url(tn5.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-radius: 15px;   
+}
+
+.thumbnail6{
+    width:360px;
+    height: 202px;
+    background-color: blue;
+    background-image: url(tn6.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-radius: 15px;   
+}
+
+.thumbnail7{
+    width:360px;
+    height: 202px;
+    background-color: blue;
+    background-image: url(tn7.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-radius: 15px;   
+}
+
+.thumbnail8{
+    width:360px;
+    height: 202px;
+    background-color: blue;
+    background-image: url(tn8.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-radius: 15px;   
+}
+
+.thumbnail9{
+    width:360px;
+    height: 202px;
+    background-color: blue;
+    background-image: url(tn9.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    border-radius: 15px;   
+}
+
+.entity{
+    width: 202px;
+}
+
+.time{
+    color:white;
+    background-color: black;
+    font-family: "Roboto","Arial";
+    position: relative;
+    width: 45px;
+    height: 20px;
+    top: 178px;
+    left: 313px;
+    
+}
+
+.chlpic img{
+    height: 40px;
+    border-radius: 20px;
+}
+
+.thb{
+    width: 352px;
+    margin-top: 1px;
+    display: flex;
+    font-family: "Roboto","Arial";
+    margin-left: 15px;
+    margin-right: 0px;
+    background-color:rgb(22, 21, 21);
+    color: white;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.thb:hover{
+    width: 352px;
+    margin-top: 1px;
+    display: flex;
+    font-family: "Roboto","Arial";
+    margin-left: 15px;
+    margin-right: 0px;
+    background-color:rgb(0, 38, 255);
+    color: white;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+}
+
+.chltit{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+
+.chlname{
+    width: 352px;
+    margin-top: 1px;
+    display: flex;
+    font-family: "Roboto","Arial";
+    margin-left: 15px;
+    margin-right: 0px;
+    background-color:rgb(22, 21, 21);
+    color: grey;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: 1s;
+}
+
+.chlname:hover{
+    width: 352px;
+    margin-top: 1px;
+    display: flex;
+    font-family: "Roboto","Arial";
+    margin-left: 15px;
+    margin-right: 0px;
+    background-color:greenyellow;
+    color: black;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.contentRow{
+    display: flex;
+}
+
+
+
+/* entity cum row design */
+
+.support{
+    background-color: black;
+}
+
+.content{
+    margin-left: 100px;
+    margin-top: 110px;
+}
